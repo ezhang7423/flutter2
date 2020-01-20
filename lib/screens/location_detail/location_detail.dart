@@ -4,8 +4,18 @@ class LocationDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Hello')),
-      body: Align(alignment: Alignment.center, child: Text('was gud ma boi')),
-    );
+        appBar: AppBar(title: Text('Hello')),
+        body: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Container(
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                  ),
+                  child: Text('was gud ma boi')),
+              Container(child: Text('was gud ma boi')),
+              Container(child: Text('was gud ma boi')),
+            ]));
   }
 }
