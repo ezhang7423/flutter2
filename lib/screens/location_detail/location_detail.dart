@@ -7,7 +7,7 @@ class LocationDetail extends StatelessWidget {
       appBar: AppBar(
         title: Text('Hello'),
       ),
-      body: Text('was gud ma bois'),
+      body: Center(child: Text('was gud ma bois')),
     );
   }
 }
