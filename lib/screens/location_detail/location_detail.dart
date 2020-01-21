@@ -14,7 +14,11 @@ class LocationDetail extends StatelessWidget {
                     color: Colors.red,
                   ),
                   child: Text('was gud ma boi')),
-              Container(child: Text('was gud ma boi')),
+              Container(
+                  decoration: BoxDecoration(
+                    color: Colors.blue,
+                  ),
+                  child: Text('was gud ma boi')),
               Container(child: Text('was gud ma boi')),
             ]));
   }
